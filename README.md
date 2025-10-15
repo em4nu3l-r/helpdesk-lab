@@ -38,11 +38,11 @@ It demonstrates how support tickets are received, categorized, and resolved foll
 
 | Ticket ID | Category | Description | Tools Used | Status |
 |------------|-----------|--------------|-------------|---------|
-| #001 | Account | Password reset requested | ADUC GUI | ✅ Resolved |
-| #002 | Software | User requested additional software installation *(simulated)* | Documentation only | ✅ Resolved |
-| #003 | Account | Account locked; reset password, unlocked, required password change | ADUC GUI | ✅ Resolved |
-| #004 | Access | User unable to access shared “Finance” folder; added to group using PowerShell | PowerShell, AD | ✅ Resolved |
-| #005 | Performance | User reported slow computer performance *(simulated)* | Documentation only | ✅ Resolved |
+| #001 | Account | Password reset requested | ADUC GUI | Resolved |
+| #002 | Software | User requested additional software installation *(simulated)* | Documentation only | Resolved |
+| #003 | Account | Account locked; reset password, unlocked, required password change | ADUC GUI | Resolved |
+| #004 | Access | User unable to access shared “Finance” folder; added to group using PowerShell | PowerShell, AD | Resolved |
+| #005 | Performance | User reported slow computer performance *(simulated)* | Documentation only | Resolved |
 
 Detailed write-ups for each ticket can be found in the [`/tickets`](./tickets) folder.
 
@@ -52,9 +52,9 @@ Detailed write-ups for each ticket can be found in the [`/tickets`](./tickets) f
 
 ### Ticket #004 – Finance Shared Folder Access
 
-**Requester:** j.doe@domain.local  
+**Requester:** bsuber@domain.local  
 **Category:** File Access  
-**Priority:** Medium  
+**Priority:** High  
 
 **Problem:**  
 User reported being unable to access the shared Finance folder located on the file server.
@@ -62,12 +62,12 @@ User reported being unable to access the shared Finance folder located on the fi
 **Troubleshooting Steps:**
 1. Verified permissions in Active Directory using PowerShell:
    ```powershell
-   Get-ADUser -Identity "j.doe" -Properties MemberOf
+   Get-ADUser -Identity "bsuber" -Properties MemberOf
 2. Confirmed user was not a member of the Finance_Users group.
 
 3. Added user to the correct group:
    ```powershell
-   Add-ADGroupMember -Identity "Finance_Users" -Members "j.doe"
+   Add-ADGroupMember -Identity "Finance_Users" -Members "bsuber"
 4. Confirmed group update replicated successfully.
 
 Had user log off and back in to reauthenticate group membership.
