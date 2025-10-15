@@ -21,3 +21,16 @@ User unable to access shared network folder `\\server\finance`.
 3. Added user to the group:
    ```powershell
    Add-ADGroupMember -Identity "Finance_Group" -Members "bsuber"
+4. Informed user to log off and back on to refresh permissions.
+
+## Resolution
+
+User successfully accessed the shared finance folder.
+
+## Screenshot
+
+Example: screenshots/powershell_group_update.png
+
+## Notes
+
+Demonstrates PowerShell proficiency, Active Directory group management, and access troubleshooting.
