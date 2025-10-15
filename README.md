@@ -1,7 +1,7 @@
 # helpdesk-lab
 This project simulates a real-world IT Help Desk environment using Spiceworks Cloud Help Desk integrated with a Windows Server 2019 Active Directory domain.   It demonstrates how tickets are created, categorized, and resolved using industry-standard workflows, with real troubleshooting tasks completed inside a virtual lab.
 
-# 🧰 Help Desk Ticketing System Home Lab
+# Help Desk Ticketing System Home Lab
 
 ### Created by Emanuel Reyes  
 **Certifications:** CompTIA Security+, CySA+, CASP+  
@@ -9,13 +9,13 @@ This project simulates a real-world IT Help Desk environment using Spiceworks Cl
 
 ---
 
-## 🗒️ Overview
+## Overview
 This project simulates a real-world **IT Help Desk environment** using **Spiceworks Cloud Help Desk** integrated with a **Windows Server 2019 Active Directory** domain.  
 It demonstrates how support tickets are received, categorized, and resolved following ITIL-style workflows, using real troubleshooting tasks performed in a virtualized lab environment.
 
 ---
 
-## 🖥️ Lab Setup
+## Lab Setup
 
 | Component | Description |
 |------------|--------------|
@@ -26,7 +26,7 @@ It demonstrates how support tickets are received, categorized, and resolved foll
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Simulate realistic **help desk tickets** covering common IT support issues  
 - Practice **Active Directory account management** and **group membership troubleshooting**  
 - Demonstrate use of **GUI and PowerShell** for administration tasks  
@@ -34,7 +34,7 @@ It demonstrates how support tickets are received, categorized, and resolved foll
 
 ---
 
-## 🧾 Tickets Completed
+## Tickets Completed
 
 | Ticket ID | Category | Description | Tools Used | Status |
 |------------|-----------|--------------|-------------|---------|
@@ -48,7 +48,7 @@ Detailed write-ups for each ticket can be found in the [`/tickets`](./tickets) f
 
 ---
 
-## 🧰 Example Ticket Walkthrough
+## Example Ticket Walkthrough
 
 ### Ticket #004 – Finance Shared Folder Access
 
