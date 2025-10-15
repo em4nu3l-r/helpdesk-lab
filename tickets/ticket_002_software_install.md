@@ -1,7 +1,7 @@
 # Ticket #002 – Software Installation Request
 
 **Date:** 2025-10-06  
-**Requester:** smiller  
+**Requester:** emanners  
 **Priority:** Medium  
 **Category:** Software Support  
 **Status:** Resolved  
