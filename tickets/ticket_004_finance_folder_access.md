@@ -27,9 +27,22 @@ User unable to access shared network folder `\\server\finance`.
 
 User successfully accessed the shared finance folder.
 
-## Screenshot
+## Screenshots
 
-Example: screenshots/powershell_group_update.png
+<p align="center">
+  <img src="../screenshots/ticket_004_group_update.png" alt="PowerShell checking group membership" width="700"/><br/>
+  <em>PowerShell output showing user not in the Finance group, and PowerShell command adding user to Finance group via <code>Add-ADGroupMember</code>.</em>
+</p>
+
+<p align="center">
+  <img src="../screenshots/ticket_004_group_update2.png" alt="ADUC verifying group membership" width="700"/><br/>
+  <em>ADUC Finance group properties showing user now listed as a member.</em>
+</p>
+
+<p align="center">
+  <img src="../screenshots/ticket_004_group_update_sw.png" alt="Spiceworks message confirming group access restored" width="700"/><br/>
+  <em>Spiceworks message confirming user was re-added to the group and access restored.</em>
+</p>
 
 ## Notes
 
