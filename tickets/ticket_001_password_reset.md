@@ -28,8 +28,15 @@ User successfully logged in and changed their password at next sign-on.
 ---
 
 ## Screenshot
-`screenshots/ticket_001_password_reset_sw.png`
-`screenshots/ticket_001_password_reset.png`
+<p align="center">
+  <img src="../screenshots/ticket_001_password_reset_sw.png" alt="Spiceworks message confirming password reset" width="700"/><br/>
+  <em>Spiceworks message sent to user with temporary password and reset instructions.</em>
+</p>
+
+<p align="center">
+  <img src="../screenshots/ticket_001_reset_password.png" alt="ADUC Reset Password Dialog" width="700"/><br/>
+  <em>Active Directory Users and Computers Reset Password dialog showing “User must change password at next logon.”</em>
+</p>
 
 ---
 
