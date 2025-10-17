@@ -28,7 +28,8 @@ User successfully logged in and changed their password at next sign-on.
 ---
 
 ## Screenshot
-*Example:* `screenshots/aduc_password_reset.png`
+`screenshots/ticket_001_password_reset_sw.png`
+`screenshots/ticket_001_password_reset.png`
 
 ---
 
