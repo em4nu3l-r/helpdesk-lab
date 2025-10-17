@@ -10,8 +10,10 @@ This project simulates a real-world IT Help Desk environment using Spiceworks Cl
 ---
 
 ## Overview
-This project simulates a real-world **IT Help Desk environment** using **Spiceworks Cloud Help Desk** integrated with a **Windows Server 2019 Active Directory** domain.  
-It demonstrates how support tickets are received, categorized, and resolved following ITIL-style workflows, using real troubleshooting tasks performed in a virtualized lab environment.
+This project showcases a self-built IT Help Desk simulation designed to demonstrate both system administration and end-user support skills.
+I created and configured a Windows Server 2019 Active Directory domain environment from scratch, including user and group management, domain services, and client integration.
+Using the Spiceworks Cloud Help Desk platform, I then simulated real-world IT support operations by generating and resolving help desk tickets representing common user issues.
+Each ticket follows a structured workflow, from issue intake and communication through Spiceworks, to technical troubleshooting and resolution using Active Directory Users and Computers (ADUC) and PowerShell.
 
 ---
 
