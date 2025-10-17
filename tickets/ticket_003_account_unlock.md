@@ -26,8 +26,26 @@ Account unlocked and user able to log in successfully.
 
 ---
 
-## Screenshot
-*Example:* `screenshots/aduc_unlock_account.png`
+## Screenshots
+<p align="center">
+  <img src="../screenshots/ticket_003_locked_account.png" alt="ADUC User Properties Unlock Account" width="700"/><br/>
+  <em>ADUC User Properties window showing “Unlock Account” and “User must change password at next logon” selected.</em>
+</p>
+
+<p align="center">
+  <img src="../screenshots/ticket_003_locked_account2.png" alt="ADUC Reset Password Dialog" width="700"/><br/>
+  <em>Password reset dialog confirming temporary password entry.</em>
+</p>
+
+<p align="center">
+  <img src="../screenshots/ticket_003_locked_account3.png" alt="User changing password at next logon" width="700"/><br/>
+  <em>User prompted to change password after signing in with temporary password.</em>
+</p>
+
+<p align="center">
+  <img src="../screenshots/ticket_003_locked_account_sw.png" alt="Spiceworks message confirming account unlock" width="700"/><br/>
+  <em>Spiceworks message confirming account unlock and providing temporary password to user.</em>
+</p>
 
 ---
 
