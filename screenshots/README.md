@@ -1,6 +1,6 @@
 # Screenshots Documentation
 
-This folder contains supporting images for the **Help Desk Simulation Lab**, demonstrating ticket handling, user communication, and technical troubleshooting through Active Directory, PowerShell, and Spiceworks.
+This folder contains supporting descriptions for the **Help Desk Simulation Lab Screenshots folder**, demonstrating ticket handling, user communication, and technical troubleshooting through Active Directory, PowerShell, and Spiceworks.
 
 Each screenshot corresponds to a specific help desk ticket documented in the [/tickets](../tickets) folder.
 
