@@ -27,7 +27,7 @@ User successfully logged in and changed their password at next sign-on.
 
 ---
 
-## Screenshot
+## Screenshots
 <p align="center">
   <img src="../screenshots/ticket_001_password_reset_sw.png" alt="Spiceworks message confirming password reset" width="700"/><br/>
   <em>Spiceworks message sent to user with temporary password and reset instructions.</em>
